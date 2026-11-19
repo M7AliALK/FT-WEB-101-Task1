@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Name: Muhammad Ali Qadri al-Qamari -->
+<!-- Student ID: PUT-YOUR-ID-HERE -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Ali - Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Muhammad Ali Qadri al-Qamari</h1>
+
+    <nav class="bar">
+      <span class="bar-name">Muhammad Ali</span>
+      <div class="bar-right">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/">GitHub</a>
+        <button id="themeBtn">Light / Dark</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <img src="images/me.jpg" alt="Photo of Muhammad Ali" class="photo">
+
+      <h2>About me</h2>
+      <p class="intro">
+        Hi! I am Muhammad Ali, a Computer Science student at New Mansoura
+        University. I am learning web development in my Field Training course.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Skills</h3>
+          <p>HTML, CSS and a little JavaScript.</p>
+        </div>
+        <div class="card">
+          <h3>Hobbies</h3>
+          <p>Gaming, reading and learning new things.</p>
+        </div>
+        <div class="card">
+          <h3>Study</h3>
+          <p>Computer Science and Engineering.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact me</h2>
+      <p>Leave your name and email and I will say hello.</p>
+
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <input type="submit" value="Send" class="send">
+      </form>
+
+      <p id="message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Muhammad Ali Qadri al-Qamari. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
